@@ -7,3 +7,7 @@ def main(s):
         int: return answer
     """
     return
+a=("a")
+while a<(a):
+    print(a)
+    a=1+1
