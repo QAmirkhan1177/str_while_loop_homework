@@ -6,8 +6,12 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
-a=0
-while a<10:
-    print(a)
-    a=a+1
+    i=0
+    c=0
+    while i<len(s):
+        if s[i].isdigit():
+            c+=1
+        i+=1
+    return c
+print(main("bull1234"))
+  
